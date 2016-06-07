@@ -45,9 +45,13 @@ function draw() {
     } else {
       // if I am dead, remove me from system memory
       ellipses.splice(i,1);
-      
     }
+    
+  if (e.diam > width) {
+    strokeWeight(6)
   }
+  }
+  
   var c = color(0,0,1,.5);
   fill(c);
   rect(0,0,width,height);
