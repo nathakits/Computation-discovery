@@ -31,7 +31,7 @@ function draw() {
   strokeWeight(2);
   stroke(255);
   noFill();
-  ellipses.push({diam:rms*100,timestamp:millis()});
+  ellipses.push({diam:rms*500,timestamp:millis()});
 
   for (var i = 0; i < ellipses.length; i++){
     var e = ellipses[i];
